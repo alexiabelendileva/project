@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pageLink{
+    font-family: Quicksand;
+    margin: 20px;
+    padding: 5px 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.pageLink:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease;
+    background-color: rgb(168, 235, 18);
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
